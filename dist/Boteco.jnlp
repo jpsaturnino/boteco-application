@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Boteco.jnlp">
+  <information>
+    <title>Boteco</title>
+    <vendor>jp_sa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Boteco.jar" size="132591" download="eager" />
+    <jar href="lib\ant-commons-logging.jar" size="16217" download="eager" />
+    <jar href="lib\commons-beanutils-1.9.0.jar" size="230951" download="eager" />
+    <jar href="lib\commons-digester-2.1.jar" size="196768" download="eager" />
+    <jar href="lib\commons-email-1.4.jar" size="51239" download="eager" />
+    <jar href="lib\commons-logging-1.1.1.jar" size="60841" download="eager" />
+    <jar href="lib\groovy-all-2.0.1.jar" size="6191960" download="eager" />
+    <jar href="lib\iText-2.1.7.js2.jar" size="1130575" download="eager" />
+    <jar href="lib\jasperreports-6.15.0.jar" size="5605930" download="eager" />
+    <jar href="lib\jcalendar-1.2.2.jar" size="112356" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2710207" download="eager" />
+    <jar href="lib\json.jar" size="95484" download="eager" />
+    <jar href="lib\org.apache.commons.commons-collections4_4.4.0.jar" size="751914" download="eager" />
+    <jar href="lib\postgresql-9.4.1209.jar" size="678049" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Boteco" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="boteco.Boteco"  name="Boteco" />
+  <update check="always"/>
+</jnlp>

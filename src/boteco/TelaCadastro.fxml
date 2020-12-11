@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="painel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boteco.TelaCadastroController">
+   <left>
+      <Accordion BorderPane.alignment="CENTER">
+        <panes>
+          <TitledPane animated="false" text="Cadastros">
+            <content>
+                  <VBox>
+                     <children>
+                        <Hyperlink onAction="#evtCadProduto" text="Produto" />
+                        <Hyperlink onAction="#evtCadGarcom" text="Garçom" />
+                        <Hyperlink onAction="#evtCadCategoria" text="Categoria" />
+                        <Hyperlink onAction="#evtCadUnidade" text="Unidade" />
+                        <Hyperlink onAction="#evtCadTpagamento" text="Tipo de Pagamento" />
+                     </children>
+                  </VBox>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+   </left>
+</BorderPane>
