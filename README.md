@@ -1,8 +1,24 @@
 # Boteco Application
 
-## About the Project
+## Features
+Manage (Create, Read, Update, Delete):
+- Products
+- Categories
+- Measurement Units
+- Waiters
+- Payment Methods
+- Order Sheet
+  - Register payment
+  - End order
 
-<p>"Develop a system capable of assisting commercial establishments in the sale of drinks and food to be consumed in the establishments themselves. The system will call Boteco."</p>
+Reports:
+- Product list, ordered by product name
+- Price list, grouped by category
+- Waiter list, grouped by city
+- Order sheet list with all data
+- Closed orders, grouped by period time
+
+Backup, Help, Restore in application.
 
 ## Preview
 
