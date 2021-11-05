@@ -1,7 +1,7 @@
 # Boteco Application
 
 ## Features
-Manage (Create, Read, Update, Delete):
+### Manage (Create, Read, Update, Delete):
 - Products
 - Categories
 - Measurement Units
@@ -11,7 +11,7 @@ Manage (Create, Read, Update, Delete):
   - Register payment
   - End order
 
-Reports:
+### Reports:
 - Product list, ordered by product name
 - Price list, grouped by category
 - Waiter list, grouped by city
