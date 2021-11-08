@@ -24,9 +24,9 @@ Backup, Help, Restore in application.
 
 <details>
   
-  ![Comandas Window](/previews/comandas_window.png?raw=true)
-  ![AddComanda Window](/previews/add_comanda_window.png?raw=true)
-  ![Administrative Window](/previews/administrative_window.png?raw=true)
+  ![Comandas](/previews/comandas_window.png?raw=true)
+  ![AddComanda](/previews/add_comanda_window.png?raw=true)
+  ![Administrative](/previews/administrative_window.png?raw=true)
   
 </details>
 
